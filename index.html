@@ -224,6 +224,30 @@
             </div>
           </div>
 
+          <!-- Vroom -->
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a
+              class="portfolio-link"
+              data-toggle="modal"
+              href="#portfolioModal3"
+            >
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img
+                class="img-fluid"
+                src="img/portfolio/Vroom-thumbnail.png"
+                alt=""
+              />
+            </a>
+            <div class="portfolio-caption">
+              <h4>Vroom</h4>
+              <p class="text-muted">Luxury Ecommerce Site</p>
+            </div>
+          </div>
+
           <!-- Flashcard Academy -->
           <div class="col-md-4 col-sm-6 portfolio-item">
             <a
@@ -246,30 +270,6 @@
             <div class="portfolio-caption">
               <h4>Flashcard Academy</h4>
               <p class="text-muted">Spaced Repetition Flashcard Application</p>
-            </div>
-          </div>
-
-          <!-- Vroom -->
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <a
-              class="portfolio-link"
-              data-toggle="modal"
-              href="#portfolioModal3"
-            >
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img
-                class="img-fluid"
-                src="img/portfolio/Vroom-thumbnail.png"
-                alt=""
-              />
-            </a>
-            <div class="portfolio-caption">
-              <h4>Vroom</h4>
-              <p class="text-muted">Luxury Ecommerce Site</p>
             </div>
           </div>
 
@@ -470,7 +470,7 @@
                 alt=""
               />
               <h4>Zach Margolies</h4>
-              <p class="text-muted">Web Developer</p>
+              <p class="text-muted">Software Developer</p>
               <ul class="list-inline social-buttons">
                 <li class="list-inline-item">
                   <a href="https://github.com/zacharymargolies">
@@ -543,23 +543,30 @@
                     subjects.
                   </p>
                   <p>
-                    Because real-time collaboration is integral to our platform,
+                    Since real-time collaboration is integral to our platform,
                     we leveraged Google Firestore’s listeners and callbacks to
                     instantly sync application data across users. Data was
                     modeled shallowly for read efficiency and scalability. Our
                     stack included Express and the Twilio API for video chat
-                    capabilities. On the front-end, we used React for its
+                    capabilities. 
+                    <p>
+                    On the front-end, we used React for its
                     modularity and reusability. In developing the canvas module,
                     we ran into the challenge of optimizing rendering and
                     decided to batch the HTML Canvas micro-strokes (pixel to
                     pixel) as larger macro-strokes objects to elevate the strain
-                    on database reads, which improved performance. Another
+                    on database reads, which improved performance.
+                    </p>
+                    <p>
+                    Another
                     consideration during development was protecting code editors
                     against malicious or non-terminating code. We set up
                     execution time-outs and sanitized code before evaluation.
                     Material UI and React Drag and Drop libraries were used to
                     help provide a clean aesthetic and great fig user
                     experience.
+                    </p>
+                    
                   </p>
                   <img
                     class="img-fluid d-block mx-auto"
@@ -729,6 +736,16 @@
                   <p>
                     Chad is an iOS app currently available in the Apple App
                     Store that was built using React Native.
+                  </p>
+                  <p>
+                    Chad uses Google Firebase in the backend to store and serve data at lightning speeds. Speed is imperative to the Chad platform to provide users
+                    with a quick and responsive messaging experience. Much time was spent crafting a backend architecture that would scale well as the user base grows.
+                  </p>
+                  <p>
+                    Building the application with React Native allowed myself and the engineering team to create an application that would work on both iOS and Android from one codebase. React Native also made it easy to leverage my experience with React to create reusable components that could be used multiple times throughout the application.
+                  </p>
+                  <p>
+                    Redux was implemented to provide a central data store for information in the applicaiton. This provided several benefits included reducing the number of API calls made to Firebase as well as reducing application loading times.
                   </p>
                   <img
                     class="img-fluid d-block mx-auto"
