@@ -620,13 +620,20 @@
 
                   <p>
                     EYEZ was built using React Native in conjuction with the
-                    Expo XDE. Expo gave access to native device features (such
-                    as the iPhone X true depth sensor) with ease. The True Depth
-                    sensor provides 50 blendshape coeffecients which map the
-                    expression of the human face. I leveraged these coeffecients
-                    to tell whether a person was blinking or smiling. Socket.io
-                    was used to enable users to compete realtime.
-                  </p>
+                    Expo XDE. EYEZ is a project built over the course of a 4 day Stackathon. It's purpose is to break the physical barrier of a staring contest and allow users to play anyone in the world. 
+                    </p>
+                    <p>
+                      I achieved this through use of the True Depth sensor on the iPhone X series. Expo helped provided access and helped me leverage these native device features with ease. The True Depth
+                      sensor provides 50 blendshape coeffecients which map the
+                      expression of the human face. I used these coeffecients
+                      to tell whether a person was blinking or smiling. 
+                    </p>
+                      <p>
+                        Socket.io
+                        was used to enable users to compete realtime. When a combination of blendshapes indicates that a user is smiling or blinking (fulfilling the lost condition) an event is emitted to the players in the room to update them of the change in game status. Users also have the ability to send one-time powerups in the form of comedic short clips to try and distract their opponent and make them laugh to tip the game in their favor.
+                      </p>
+                    
+                  
                   <img
                     class="img-fluid d-block mx-auto"
                     src="img/portfolio/EYEZ-screengrabs.png"
