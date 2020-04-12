@@ -49,6 +49,7 @@
 
     <!-- Custom styles for this template -->
     <link href="css/style.css" rel="stylesheet" />
+    <script type="text/javascript" src="./js/utils.js"></script>
   </head>
 
   <body id="page-top">
@@ -167,13 +168,13 @@
         </div>
 
         <div class="row text-center">
-          
           <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <img class="img-fluid" src="img/techstack/redux.png" alt="" />
-            </span>
-            <h4 class="service-heading">Redux</h4>
-          </div>
+              <span class="fa-stack fa-4x">
+                <img class="img-fluid" src="img/techstack/expressjs.png" alt="" />
+              </span>
+              <h4 class="service-heading">Express</h4>
+            </div>
+          
           <div class="col-md-4">
             <span class="fa-stack fa-4x">
               <img class="img-fluid" src="img/techstack/nodejs.png" alt="" />
@@ -190,25 +191,38 @@
         </div>
 
         <div class="row text-center">
+          <div class="col-md-4"></div>
           <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <img class="img-fluid" src="img/techstack/expressjs.png" alt="" />
-            </span>
-            <h4 class="service-heading">Express</h4>
-          </div>
-          <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <img class="img-fluid" src="img/techstack/sequelize.png" alt="" />
-            </span>
-            <h4 class="service-heading">Sequelize</h4>
-          </div>
-          <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <img class="img-fluid" src="img/techstack/firebase.png" alt="" />
-            </span>
-            <h4 class="service-heading">Firebase</h4>
+              <button class="btn btn-primary" onclick="onButtonClick()" type="button" id="collapseButton" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                Some Extras
+              </button>
           </div>
         </div>
+
+        <div class="collapse" id="collapseExample">
+          <div class="row text-center">
+            <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <img class="img-fluid" src="img/techstack/redux.png" alt="" />
+            </span>
+            <h4 class="service-heading">Redux</h4>
+          </div>
+            <div class="col-md-4">
+              <span class="fa-stack fa-4x">
+                <img class="img-fluid" src="img/techstack/sequelize.png" alt="" />
+              </span>
+              <h4 class="service-heading">Sequelize</h4>
+            </div>
+            <div class="col-md-4">
+              <span class="fa-stack fa-4x">
+                <img class="img-fluid" src="img/techstack/firebase.png" alt="" />
+              </span>
+              <h4 class="service-heading">Firebase</h4>
+            </div>
+          </div>
+        </div>
+
+
       </div>
     </section>
 
